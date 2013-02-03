@@ -13,6 +13,7 @@ namespace WatchMeRun.Library
   {
     public static WatchMeRunConfigurationSection Load()
     {
+      throw new NotImplementedException();
       return new WatchMeRunConfigurationSection();
     }
   }
