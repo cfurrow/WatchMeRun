@@ -5,15 +5,15 @@ using System.Text;
 using System.Configuration;
 using System.IO;
 
+
+
 namespace WatchMeRun.Library
 {
   public class ConfigLoader
   {
-    public static WatchMeRunSection Load()
+    public static WatchMeRunConfigurationSection Load()
     {
-      using(StreamReader sr = new StreamReader(File.OpenRead("config.yml")))
-      {
-      }
+      return new WatchMeRunConfigurationSection();
     }
   }
 }
