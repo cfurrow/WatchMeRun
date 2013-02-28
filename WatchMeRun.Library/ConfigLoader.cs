@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Configuration;
 using System.IO;
-
-
+using TOML;
 
 namespace WatchMeRun.Library
 {
   public class ConfigLoader
   {
-    public static WatchMeRunConfigurationSection Load()
+    public static dynamic Load(string path)
     {
-      throw new NotImplementedException();
-      return new WatchMeRunConfigurationSection();
+      dynamic td;
+      TomlParser.TryParse(File.ReadAllText(path),out td);
+      return td;
     }
   }
 }

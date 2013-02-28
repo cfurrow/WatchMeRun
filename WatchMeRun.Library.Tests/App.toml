@@ -1,0 +1,6 @@
+﻿# TOML file https://github.com/mojombo/toml
+[directories]
+  [directories.test]
+    path    = "c:\directory"
+    watch   = "watchme"
+    run     = "runme.bat"
