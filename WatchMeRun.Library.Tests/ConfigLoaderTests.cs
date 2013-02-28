@@ -15,12 +15,18 @@ namespace WatchMeRun.Library.Tests
     [Test]
     public void Test1()
     {
-      dynamic config = ConfigLoader.Load("app.toml");
+      var dirs = ConfigLoader.Load("app.toml");
+      Assert.IsNotNull(dirs);
+      WatchDirectory dir = dirs.First();
 
-      Assert.IsNotNull(config);
-      Assert.AreEqual(@"c:\directory",config.directories.test.path);
-      Assert.AreEqual("watchme",config.directories.test.watch);
-      Assert.AreEqual("runme.bat",config.directories.test.run);
+      Assert.AreEqual(@"c:\directory",dir.Path);
+      Assert.AreEqual("watchme",dir.Watch);
+      Assert.AreEqual("runme.bat",dir.Run);
+
+      dir = dirs.ElementAt(1);
+      Assert.AreEqual(@"c:\directory2", dir.Path);
+      Assert.AreEqual("build", dir.Watch);
+      Assert.AreEqual("build.bat", dir.Run);
     }
   }
 }
