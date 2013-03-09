@@ -1,0 +1,11 @@
+# An example toml file
+# TOML file https://github.com/mojombo/toml
+[directories]
+  [directories.test]
+    path    = "c:\\directory"
+    watch   = "watchme"
+    run     = "runme.bat"
+  [directories.forreal]
+    path    = "c:\\directory2"
+    watch   = "build"
+    run     = "build.bat"
