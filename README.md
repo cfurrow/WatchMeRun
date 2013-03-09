@@ -4,7 +4,7 @@ A simple file-watcher that runs a command when the file has changed.
 
 ## TOML!
 
-Config files are written in TOML and are expected to be named "app.toml" and
+Config files are written in [TOML](https://github.com/mojombo/toml) and are expected to be named "app.toml" and
 for that file to be located in the same directory as the WatchMeRun.exe file.
 
 ## Example
