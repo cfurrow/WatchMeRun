@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchMeRun.Library", "Watch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchMeRun.Library.Tests", "WatchMeRun.Library.Tests\WatchMeRun.Library.Tests.csproj", "{2107BAF7-ADAD-42C2-96F5-1406EEBFC897}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WatchMeRun.CLI", "WatchMeRun.CLI\WatchMeRun.CLI.csproj", "{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,16 @@ Global
 		{2107BAF7-ADAD-42C2-96F5-1406EEBFC897}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{2107BAF7-ADAD-42C2-96F5-1406EEBFC897}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{2107BAF7-ADAD-42C2-96F5-1406EEBFC897}.Release|x86.ActiveCfg = Release|Any CPU
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Debug|x86.ActiveCfg = Debug|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Debug|x86.Build.0 = Debug|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Release|Any CPU.ActiveCfg = Release|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Release|Mixed Platforms.Build.0 = Release|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Release|x86.ActiveCfg = Release|x86
+		{C09DBB4D-1C9D-4863-B62F-655CF9E0E0EA}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
